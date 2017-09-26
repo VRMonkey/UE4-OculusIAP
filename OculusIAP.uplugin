@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	
+	"FriendlyName": "OculusIAP",
+	"Version": 1,
+	"VersionName": "1.1",
+	"Description" : "Adds via blueprint the ability to open the Oculus Android/Windows Store's checkout page of any given IAP item, and verify wether or not user is entitled to any given IAP item. Developer must verify user entitlement through Oculus's blueprint exposed function BEFORE any calls to this plugin.",
+    "Category" : "Online",
+    "CreatedBy" : "VRMonkey",
+    "CreatedByURL" : "http://www.vrmonkey.com.br/",
+    "EngineVersion" : "4.16.0",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "OculusIAP",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}
